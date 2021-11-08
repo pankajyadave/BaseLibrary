@@ -19,6 +19,7 @@ public class BaseLibrary
 
 	public void GetlaunchURL(String url)
 	{
+		//System.setProperty("webdriver.chrome.driver","D:\\ChromeDriver\\chromedriver.exe");
 		driver.get(url);
 		driver.manage().window().maximize();
 // implicit wait 
