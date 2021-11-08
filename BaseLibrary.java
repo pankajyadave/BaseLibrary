@@ -14,6 +14,8 @@ import ScreenshotUtility.Screenshotutility;
 public class BaseLibrary
 {
 	public static WebDriver driver=new ChromeDriver();
+		//public static WebDriver driver = new FirefoxDriver();
+		//public static WebDriver driver=new InternetExplorerDriver();
 
 	public void GetlaunchURL(String url)
 	{
